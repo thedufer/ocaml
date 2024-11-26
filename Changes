@@ -217,6 +217,11 @@ ___________
   annotations.
   (Jacques Garrigue, report and review by Gabriel Scherer and Florian Angeletti)
 
+- #13634: Allow type unification to erase optional arguments any time the first
+   non-erased argument is positional, even if there are further labeled
+   arguments.
+   (Aaron Dufour)
+
 ### Runtime system:
 
 - #13419: Fix memory bugs in runtime events system.
